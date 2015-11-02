@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>【艺龙旅行网】酒店预订,酒店查询,宾馆住宿预订,网上订酒店</title>
+  <link rel="stylesheet" href="styles/chinahotel.css">
+  <script src="scripts/jquery-1.11.3.min.js"></script>
+  <script src="scripts/globalguonei.js"></script>
+  <script src="scripts/soufengqingjq.js"></script>
+  <script src="scripts/xuanxiangka.js"></script>
+  <!--[if IE]>
+	<script src="scripts/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+  <!--header-->
+  <div class="header">
+    <div class="nav">
+      <h1><a href="home.html"></a></h1>
+      <div class="right">
+        <div class="menu1">
+          <span><a href="#">积分广场</a>|</span>
+          <span><a href="#">礼品卡</a>|</span>
+          <span><a href="#">微信客服</a>|</span>
+          <span><a href="#">帮助中心</a>|</span>
+          <span class="language">
+					<select>
+						<option>English</option>
+						<option>简体版</option>
+						<option>繁体版</option>
+					</select>
+				</span>
+        </div>
+        <a class="phone" href="#">
+          <i></i>
+          <em>手机版</em>
+          <em>专享五折酒店
+				   <div class="pic">
+					</div>
+				</em>
+        </a>
+        <a class="tel" href="#">
+          <i></i>
+          <em>7x24 客服电话</em>
+          <em>4009-333-333<i></i>
+				<div class="telphone">
+					<ul>
+						<li>国内：4009-333-333</li>
+						<li>香港：852-8131-8883<br/>
+						          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;852-8131-8983
+
+						</li>
+						<li>台湾：886-2-7717-8123</li>
+						<li>海外：86-10-6432-9999</li>
+					</ul>
+					</div>
+				</em>
+        </a>
+      </div>
+    </div>
+    <div class="color1">
+      <div class="navigation" id="navigation">
+        <ul class="nav" id="nav">
+          <li><a href="first.html" title="首页">首页</a></li>
+          <li><a href="chinahotel.html" title="国内酒店">国内酒店</a></li>
+          <li><a href="shop.htmlhome.html" title="团购">团购</a></li>
+          <li><a href="interhotel.html" title="国际酒店">国际酒店<span class="s1"></span></a></li>
+          <li><a href="hire.html" title="短租公寓">短租公寓<span class="s2"></span></a></li>
+          <li><a href="limit.html" title="限时抢">限时抢</a></li>
+          <li><a href="plane.html" title="机票">机票</a></li>
+          <li><a href="train.html" title="火车票">火车票<span class="s3"></span></a></li>
+          <li><a href="bus.html" title="汽车票">汽车票</a></li>
+        </ul>
+        <div class="login">
+          <input type="button" value="登录" />|
+          <input type="button" value="注册">
+          <div class="check">
+            <p>登录</p>
+            <ul class="ul1">
+              <li class="li1"><a href="#">酒店订购</a></li>
+              <li class="li2"><a href="#">团购订单</a></li>
+              <li class="li3"><a href="#">机票订单</a></li>
+              <li class="li4"><a href="#">火车票订单</a></li>
+              <li class="li5"><a href="#">现金账户</a></li>
+              <li class="li6"><a href="#">汽车票订单</a></li>
+              <li class="li7"><a href="#">酒店收藏</a></li>
+              <li class="li8"><a href="#">我的点评</a></li>
+              <li class="li9"><a href="#">个人设置</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--header-->
+  <div class="banner">
+    <!--——————————————图片轮播start————————————————————————-->
+    <ul class="showpic" id="showpic">
+      <li>
+        <a href="#"><img id="pic" src="" alt="pic"></a>
+      </li>
+    </ul>
+    <ol class="dots" id="dots">
+      <li class="dt"></li>
+      <li class="dt"></li>
+      <li class="dt"></li>
+      <li class="dt"></li>
+      <li class="dt"></li>
+    </ol>
+    <!--——————————————图片轮播end————————————————————————-->
+    <!--——————————————search_start————————————————————————-->
+    <div class="search">
+      <div class="searchtitle">
+        <ul class="ser">
+          <li id="serhotel">国内酒店</li>
+          <li id="sershort">短租公寓</li>
+          <li id="serhongk">港澳台酒店</li>
+        </ul>
+      </div>
+      <!--——————————————search国内酒店_start————————————————————————-->
+      <div class="searchhotel">
+        <div class="searchcon">
+          <div class="shcity">
+            <input id="citybj" type="text" value="北京">
+          </div>
+          <div class="shdate">
+            <label><span>入驻</span>
+              <input type="text" value="2015-8-30"><span class="cal"></span></label>
+          </div>
+          <div class="shdate">
+            <label><span>离店</span>
+              <input type="text" value="2015-8-31"><span class="cal"></span></label>
+          </div>
+          <div class="shkeywd">
+            <input type="text" value="关键词">
+          </div>
+          <div class="shbtn"><span></span>搜索</div>
+          <div class="shmap"><span></span>地图</div>
+        </div>
+        <div class="searchhot">
+          <dl>
+            <dt>大家热搜：</dt>
+            <dd><a href="#">婺源</a></dd>
+            <dd><a href="#">黄山</a></dd>
+            <dd><a href="#">昆明</a></dd>
+            <dd><a href="#">峨眉山</a></dd>
+          </dl>
+        </div>
+      </div>
+      <!--国内酒店-->
+      <div class="chinaaddress" id="chinaaddress" style="display:none;">
+        <p>支持中文/拼音/简拼输入</p>
+        <p>最近搜索记录：<span>北京</span></p>
+        <ul class="chinacitys" id="chinacitys">
+          <li>热门</li>
+          <li>ABCDEF</li>
+          <li>GHJK</li>
+          <li>LMNPQ</li>
+          <li>RSTW</li>
+          <li>XYZ</li>
+        </ul>
+        <div class="chinacity" id="chinacity">
+          <div class="hotcity">
+            <ul>
+              <li>北京</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+            </ul>
+          </div>
+          <div style="display:none;">
+            <ul>
+              <li class="letter">A</li>
+              <li>阿里</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">B</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">C</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">D</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">E</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">F</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+            </ul>
+          </div>
+          <div style="display:none;">
+            <ul>
+              <li class="letter">G</li>
+              <li>国美</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">H</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">G</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">K</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+            </ul>
+          </div>
+          <div style="display:none;">
+            <ul>
+              <li class="letter">L</li>
+              <li>婺源</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">M</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">N</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">P</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">Q</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+            </ul>
+          </div>
+          <div style="display:none;">
+            <ul>
+              <li class="letter">R</li>
+              <li>深圳</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">S</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">T</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">W</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">Z</li>
+              <li>上海</li>
+              <li class="line"></li>
+              <li class="letter">W</li>
+              <li>上海</li>
+              <li class="letter">H</li>
+              <li>上海</li>
+              <li class="line"></li>
+              <li class="letter">W</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+            </ul>
+          </div>
+          <div style="display:none;">
+            <ul>
+              <li class="letter">X</li>
+              <li>上都</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">Y</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="line"></li>
+              <li class="letter">Z</li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+              <li class="letter"></li>
+              <li>上海</li>
+              <li>广州</li>
+              <li>厦门</li>
+              <li>北京</li>
+              <li>北京</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--国内酒店-->
+      <!--——————————————search国内酒店_end————————————————————————-->
+      <!--——————————————search短租公寓_start————————————————————————-->
+      <div class="searchshort">
+        <div class="searchcon">
+          <div class="shcity">
+            <input type="text" value="合肥市">
+          </div>
+          <div class="shdate">
+            <label><span>入驻</span>
+              <input type="text" value="2015-8-30"><span class="cal"></span></label>
+          </div>
+          <div class="shdate">
+            <label><span>离店</span>
+              <input type="text" value="2015-8-31"><span class="cal"></span></label>
+          </div>
+          <div class="shbtn"><span></span>搜索</div>
+        </div>
+        <div class="searchhot">
+          <dl>
+            <dt>大家热搜：</dt>
+            <dd><a href="#">三亚</a></dd>
+            <dd><a href="#">广州</a></dd>
+            <dd><a href="#">武汉</a></dd>
+          </dl>
+        </div>
+      </div>
+      <!--——————————————search短租公寓_end————————————————————————-->
+      <!--——————————————search港澳台酒店_start————————————————————————-->
+      <div class="searchhongk">
+        <div class="searchcon">
+          <div class="shcity">
+            <input type="text" value="北京">
+          </div>
+          <div class="shdate">
+            <label><span>入驻</span>
+              <input type="text" value="2015-8-30"><span class="cal"></span></label>
+          </div>
+          <div class="shdate">
+            <label><span>离店</span>
+              <input type="text" value="2015-8-31"><span class="cal"></span></label>
+          </div>
+          <div class="shkeywd">
+            <input type="text" value="关键词">
+          </div>
+          <div class="shbtn"><span></span>搜索</div>
+        </div>
+        <div class="searchhot">
+          <dl>
+            <dt>大家热搜：</dt>
+            <dd><a href="#">香港</a></dd>
+            <dd><a href="#">澳门</a></dd>
+            <dd><a href="#">台北</a></dd>
+            <dd><a href="#">垦丁</a></dd>
+            <dd><a href="#">高雄</a></dd>
+          </dl>
+        </div>
+      </div>
+      <!--——————————————search港澳台酒店_end————————————————————————-->
+    </div>
+    <!--——————————————search_end————————————————————————-->
+  </div>
+  <!--——————————————fold_start————————————————————————-->
+  <div class="fold_wrap">
+    <ul id="sm">
+      <li>
+        <a href="#">
+          <div class="mask_b">
+            <h4>园林酒店</h4>
+          </div>
+          <div class="pic_auto pic_auto1"></div>
+          <div class="adv_intro">
+            有谁不爱泡温泉？浸入雾气蒸腾的泉水之中，把身体泡成一片茶叶，舒展轻盈。有比这更美妙的感觉吗？
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="mask_b">
+            <h4>设计师酒店</h4>
+          </div>
+          <div class="pic_auto pic_auto2"></div>
+          <div class="adv_intro">
+            前卫的酒店设计理念，独具魅力的风格，优美的自然风光才能有这样顶级的酒店。
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="mask_b">
+            <h4>青年旅社</h4>
+          </div>
+          <div class="pic_auto pic_auto3"></div>
+          <div class="adv_intro">
+            我为你煮一杯温茶，斟一杯美酒。让我们席地而坐，听你的梦想。用你的只言片语装点我们的梦想博物馆。
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="mask_b">
+            <h4>特色客栈</h4>
+          </div>
+          <div class="pic_auto pic_auto4"></div>
+          <div class="adv_intro">
+            在这里，你可以静静发呆，而不被人打扰，只用细细品味它的美好；在这里，你能看见最美好的星星，能让你找到最深的感动。
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="mask_b">
+            <h4>海岛酒店</h4>
+          </div>
+          <div class="pic_auto pic_auto5"></div>
+          <div class="adv_intro">
+            不想过冬，厌倦沉重，就飞去热带的岛屿游泳，卸下包袱，放下压力，让自己的身与心，在这碧海蓝天之中，享受一次超自然的洗礼。
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="mask_b">
+            <h4>海外温泉</h4>
+          </div>
+          <div class="pic_auto pic_auto6"></div>
+          <div class="adv_intro">因地形地质的区别，世界各地的温泉也千差万别，选择一处适合自己的温泉，5分钟后，你会忘记自己，20分钟后，你会忘记世界。</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!--——————————————fold_end————————————————————————-->
+  <!--——————————————目的地推荐start————————————————————————-->
+  <section class="dir">
+    <div class="hd">
+      <h2>目的地推荐</h2>
+      <a href="#">下一站>></a>
+    </div>
+    <ul class="dirul">
+      <li>
+        <div class="transpic"><span></span></div>
+        <dl>
+          <dt>赏花</dt>
+          <dd>武汉</dd>
+          <dd>婺源</dd>
+          <dd>宏村</dd>
+          <dd>罗平</dd>
+          <dd>洛阳</dd>
+          <dd>苏州</dd>
+          <dd>杭州</dd>
+          <dd>广州</dd>
+          <dd>北京</dd>
+        </dl>
+      </li>
+      <li>
+        <div class="transpic"><span></span></div>
+        <dl>
+          <dt>登山</dt>
+          <dd>泰山</dd>
+          <dd>黄山</dd>
+          <dd>长白山</dd>
+          <dd>武当山</dd>
+          <dd>普陀山</dd>
+          <dd>五台山</dd>
+          <dd>恒山</dd>
+        </dl>
+      </li>
+      <li>
+        <div class="transpic"><span></span></div>
+        <dl>
+          <dt>古镇</dt>
+          <dd>乌镇</dd>
+          <dd>同里</dd>
+          <dd>西递宏村</dd>
+          <dd>丽江</dd>
+          <dd>黄姚</dd>
+          <dd>南浔</dd>
+          <dd>平遥</dd>
+          <dd>周庄</dd>
+          <dd>凤凰</dd>
+        </dl>
+      </li>
+      <li>
+        <div class="transpic"><span></span></div>
+        <dl>
+          <dt>徒步</dt>
+          <dd>三峡</dd>
+          <dd>龙胜梯田</dd>
+          <dd>林芝</dd>
+          <dd>稻城</dd>
+          <dd>拉萨</dd>
+          <dd>神农架</dd>
+          <dd>虎跳峡</dd>
+          <dd>喀斯纳</dd>
+          <dd>婺源</dd>
+        </dl>
+      </li>
+      <li>
+        <div class="transpic"><span></span></div>
+        <dl>
+          <dt>世界遗产</dt>
+          <dd>九寨沟</dd>
+          <dd>泰山</dd>
+          <dd>青城山</dd>
+          <dd>武当山</dd>
+          <dd>莫高窟</dd>
+          <dd>西安</dd>
+          <dd>安阳殷墟</dd>
+          <dd>元阳梯田</dd>
+        </dl>
+      </li>
+      <li>
+        <div class="transpic"><span></span></div>
+        <dl>
+          <dt>观海</dt>
+          <dd>厦门</dd>
+          <dd>大连</dd>
+          <dd>鼓浪屿</dd>
+          <dd>大理洱海</dd>
+          <dd>舟山</dd>
+          <dd>北海</dd>
+          <dd>日照</dd>
+          <dd>三亚</dd>
+          <dd>垦丁</dd>
+        </dl>
+      </li>
+    </ul>
+  </section>
+  <!--——————————————目的地推荐end————————————————————————-->
+  <!--——————————————促销特卖汇start————————————————————————-->
+  <section class="sale">
+    <div class="hd">
+      <h2>促销特卖汇</h2>
+      <a href="#">更多>></a>
+    </div>
+    <ul class="sl">
+      <li>
+        <a href="#">
+          <div class="pdou"><img height="170" src="images/Sale01.jpg" alt="狂扫"></div>
+          <div class="jdui">布丁狂扫艺夏<span>预付房费最高立减30元</span></div>
+        </a>
+        <div class="sltime">
+          <p>活动时间：7.20-8.31</p>
+        </div>
+      </li>
+      <li>
+        <a href="#">
+          <div class="pdou"><img src="images/Sale02.jpg" alt="放送"></div>
+          <div class="jdui">上海旅游大放送<span>住浦江两岸酒店送景区门票</span></div>
+        </a>
+        <div class="sltime">
+          <p>活动时间：6.12-10.7</p>
+        </div>
+      </li>
+      <li>
+        <a href="#">
+          <div class="pdou"><img src="images/Sale03.jpg" alt="早惠"></div>
+          <div class="jdui">早订早惠<span>提前预定享7折起</span></div>
+          <div class="discount"><span>7</span>折</div>
+        </a>
+        <div class="sltime">
+          <p>入住时间：3.24-12.31</p>
+        </div>
+      </li>
+      <li>
+        <a href="#">
+          <div class="pdou"><img src="images/Sale04.jpg" alt="戴斯酒店集团"></div>
+          <div class="jdui">戴斯酒店集团<span>提前3天预定享优惠</span></div>
+        </a>
+        <div class="sltime">
+          <p>入住时间：8.10-12.31</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!--——————————————促销特卖汇end————————————————————————-->
+  <!--——————————————推荐品牌start————————————————————————-->
+  <section class="remcond">
+    <div class="hd">
+      <h2>推荐品牌</h2>
+      <a href="#">更多>></a>
+    </div>
+    <div class="company">
+      <ul id="comp">
+        <li>
+          <a href="#" class="a1">
+            <span></span>
+            <p>洲际酒店集团</p>
+          </a>
+          <a href="#" class="a2">
+            <span></span>
+            <p>喜达屋酒店集团</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a1">
+            <span></span>
+            <p>万豪酒店集团</p>
+          </a>
+          <a href="#" class="a2">
+            <span></span>
+            <p>凯悦酒店集团</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a1">
+            <span></span>
+            <p>如家</p>
+          </a>
+          <a href="#" class="a2">
+            <span></span>
+            <p>汉庭</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a1">
+            <span></span>
+            <p>7天</p>
+          </a>
+          <a href="#" class="a2">
+            <span></span>
+            <p>锦江之星</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a1">
+            <span></span>
+            <p>大中华</p>
+          </a>
+          <a href="#" class="a2">
+            <span></span>
+            <p>香格里拉</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a1">
+            <span></span>
+            <p>希尔顿</p>
+          </a>
+          <a href="#" class="a2">
+            <span></span>
+            <p>雅诗阁</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a1">
+            <span></span>
+            <p>莫泰</p>
+          </a>
+          <a href="#" class="a2">
+            <span></span>
+            <p>林格豪泰</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a1">
+            <span></span>
+            <p>布丁酒店</p>
+          </a>
+          <a href="#" class="a2">
+            <span></span>
+            <p>速8</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a1">
+            <span></span>
+            <p>美国戴斯酒店集团</p>
+          </a>
+          <a href="#" class="a2">
+            <span></span>
+            <p>宜必思</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a1">
+            <span></span>
+            <p>锦江酒店集团</p>
+          </a>
+          <a href="#" class="a2">
+            <span></span>
+            <p>维也纳</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a1">
+            <span></span>
+            <p>富译酒店</p>
+          </a>
+          <a href="#" class="a2">
+            <span></span>
+            <p>金陵连锁</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="a1">
+            <span></span>
+            <p>雅阁集团</p>
+          </a>
+          <a href="#" class="a2">
+            <span></span>
+            <p>首旅建国</p>
+          </a>
+        </li>
+      </ul>
+      <span class="tjrg" id="tjrg"></span>
+      <span class="tjlf" id="tjlf"></span>
+    </div>
+  </section>
+  <!--——————————————推荐品牌end————————————————————————-->
+  <div class="message">
+    <div class="mshotel">
+      <ul>
+        <li><span class="msp1 "></span><span class="msp2">全球50万家酒店</span></li>
+        <li><span class="msp1 msp3"></span><span class="msp2">订酒店返现金高达20%</span></li>
+        <li><span class="msp1 msp4"></span><span class="msp2">国际酒店8折起</span></li>
+        <li><span class="msp1 msp5"></span><span class="msp2">7&times;24小时服务</span></li>
+      </ul>
+    </div>
+    <div class="ipemail">
+      <div class="emleft"></div>
+      <div class="emaillogin">
+        <span>亲，留下您的邮箱，会有惊喜哟</span>
+        <input type="text" placeholder="请输入您的E-mail" class="eminp1">
+        <input type="button" value="立即订阅" class="eminp2">
+      </div>
+      <div class="emright"><a href="#">艺龙服务协议</a></div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+      <div class="section">
+        <div class="nav1">
+          <ul>加盟合作
+            <li><a href="#">酒店加盟</a></li>
+            <li><a href="#">分销加盟</a></li>
+            <li><a href="#">代理合作</a></li>
+            <li><a href="#">广告服务</a></li>
+          </ul>
+          <ul>关于艺龙
+            <li><a href="#">关于艺龙</a></li>
+            <li><a href="#">常见问题</a></li>
+            <li><a href="#">招聘信息</a></li>
+            <li><a href="#">校园招聘</a></li>
+            <li><a href="#">联系我们</a></li>
+          </ul>
+          <ul>艺龙APP下载
+            <li class="img1"></li>
+          </ul>
+          <ul>艺龙官方微信
+            <li class="img2"></li>
+          </ul>
+        </div>
+        <div class="nav2">
+          <p>
+            &copy; 1999 - 2015 eLong, Inc or its affiliates. All Rights Reserved.
+            <a href="#">京ICP证010011号 </a> 京公网安备
+            <a href="#">11010502026059号</a>
+            <span></span>
+          </p>
+        </div>
+        <div class="nav3">
+          <ul>
+            <li class="li1"></li>
+            <li class="li2"></li>
+            <li class="li3"></li>
+            <li class="li4"></li>
+            <li class="li5"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

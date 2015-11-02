@@ -1,0 +1,1710 @@
+@import url("reset.css");
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 12px;
+  font-family: arial, Verdana, Geneva, Helvetica;
+  color: #131313;
+}
+
+
+/*header*/
+
+body,
+div,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  height: 292px;
+  border-top: 1px solid #eee;
+}
+
+.section {
+  width: 990px;
+  margin: 20px auto;
+}
+
+.nav1 {
+  overflow: hidden;
+  height: 125px;
+  padding-left: 30px;
+}
+
+.nav1 ul {
+  float: left;
+  width: 230px;
+  border-left: 3px solid #5d96c7;
+  height: 18px;
+  padding-left: 7px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav1 ul li a {
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  transition: padding 0.5s;
+}
+
+.nav1 ul li a:hover {
+  font-size: 14px;
+  color: #F00;
+  font-weight: normal;
+  padding-left: 5px;
+}
+
+.nav1 ul .img1 {
+  height: 100px;
+  width: 100px;
+  background: url(../images/1.png) -499px 0;
+  margin-top: 10px;
+}
+
+.nav1 ul .img2 {
+  height: 100px;
+  width: 100px;
+  background: url(../images/1.png) -499px -104px;
+  margin-top: 10px;
+}
+
+.nav2 p {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.nav2 p a {
+  color: #000;
+}
+
+.nav2 p a:hover {
+  color: #F00;
+  cursor: pointer;
+  ;
+}
+
+.nav2 p span {
+  display: inline-block;
+  height: 25px;
+  width: 22px;
+  background: url(../images/2.png) -940px -196px no-repeat;
+}
+
+.nav3 ul {
+  overflow: hidden;
+}
+
+.nav3 ul li {
+  float: left;
+  margin-left: 10px;
+  transition: margin 0.2s;
+}
+
+.nav3 ul li:hover {
+  margin-top: 5px;
+}
+
+.nav3 ul .li1 {
+  margin-left: 250px;
+  width: 75px;
+  height: 32px;
+  background: url(../images/2.png) -331px -440px;
+}
+
+.nav3 ul .li2 {
+  width: 70px;
+  height: 32px;
+  background: url(../images/2.png) -404px -440px;
+}
+
+.nav3 ul .li3 {
+  width: 90px;
+  height: 32px;
+  background: url(../images/2.png) -472px -440px;
+}
+
+.nav3 ul .li4 {
+  width: 90px;
+  height: 32px;
+  background: url(../images/2.png) -567px -440px;
+}
+
+.nav3 ul .li5 {
+  width: 90px;
+  height: 32px;
+  background: url(../images/2.png) -656px -440px;
+}
+
+div.header {
+  font-family: '微软雅黑';
+}
+
+div.header div.nav {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+div.header div.nav h1 {
+  width: 130px;
+  height: 48px;
+  background: url("../images/fh1.png") -660px 0;
+  float: left;
+  margin-top: 20px;
+}
+
+div.header div.nav div.right {
+  float: right;
+  width: 700px;
+  height: 42px;
+}
+
+div.header div.nav div.right div.menu1 {
+  width: 350px;
+  margin-top: 20px;
+  float: left;
+}
+
+div.header div.nav div.right div.menu1 span {
+  font-family: Arial, Simsun !important;
+  color: #999;
+  font-size: 12px;
+}
+
+div.header div.nav div.right div.menu1 span a {
+  color: #999;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+div.header div.nav div.right div.menu1 span a:hover {
+  color: #f55;
+}
+
+div.header div.nav div.right div.menu1 span.language {
+  position: relative;
+  width: 70px;
+  display: inline-block;
+  border: 1px solid #fff;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: #fff;
+}
+
+div.header div.nav div.right div.menu1 span.language select {
+  border: none;
+  color: #999;
+}
+
+div.header div.nav div.right a.phone {
+  margin-top: 2px;
+  width: 150px;
+  height: 42px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+div.header div.nav div.right a.phone i {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url(../images/fh2.gif);
+  float: left;
+}
+
+div.header div.nav div.right a.phone em {
+  color: #FF6A6A;
+  font-size: 14px;
+  font: 14px/18px Microsoft yahei;
+  float: left;
+  margin-left: 10px;
+}
+
+div.header div.nav div.right a.phone em:last-child {
+  position: relative;
+}
+
+div.header div.nav div.right a.phone em:last-child div.pic {
+  width: 236px;
+  height: 120px;
+  background: #fff url(../images/fh3.png) -373px -229px no-repeat;
+  position: absolute;
+  left: -50px;
+  top: 35px;
+  border: 1px solid #C5C5C5;
+  ;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  display: none;
+  z-index: 100;
+}
+
+div.header div.nav div.right a.phone em:last-child:hover div.pic {
+  display: block;
+}
+
+div.header div.nav div.right a.phone em:last-child div.pic::before {
+  content: "";
+  position: absolute;
+  border: 12px solid;
+  border-color: transparent transparent #efefed transparent;
+  top: -24px;
+  left: 15%;
+  height: 0px;
+  width: 0px;
+}
+
+div.header div.nav div.right a.tel {
+  width: 180px;
+  height: 42px;
+  float: left;
+  margin-top: 20px;
+}
+
+div.header div.nav div.right a.tel i {
+  width: 42px;
+  height: 41px;
+  display: inline-block;
+  background: url(../images/fh3.png) -42px -3px;
+  float: left;
+}
+
+div.header div.nav div.right a.tel em {
+  color: #999;
+  font-size: 14px;
+  font-family: '微软雅黑';
+  float: left;
+  margin-left: 10px;
+  font: 14px/18px Microsoft yahei;
+  margin-top: 2px;
+}
+
+div.header div.nav div.right a.tel em:last-child {
+  color: #2064C8;
+  font-size: 16px;
+  display: inline-block;
+  width: 124px;
+}
+
+div.header div.nav div.right a.tel em:last-child i {
+  width: 12px;
+  height: 8px;
+  display: inline-block;
+  background: url(../images/fh3.png) -377px -9px;
+  float: right;
+  margin-top: 3px;
+}
+
+div.header div.nav div.right a.tel em:last-child {
+  position: relative;
+}
+
+div.header div.nav div.right a.tel em:last-child div.telphone {
+  width: 170px;
+  position: absolute;
+  top: 35px;
+  left: -50px;
+  color: #999;
+  font-size: 12px;
+  border: 1px solid #C5C5C5;
+  ;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  display: none;
+  z-index: 100;
+  background: #fff;
+}
+
+div.header div.nav div.right a.tel em:last-child div.telphone ul {}
+
+div.header div.nav div.right a.tel em:last-child div.telphone ul li {
+  line-height: 30px;
+  border-bottom: 1px dashed #ccc;
+}
+
+div.header div.nav div.right a.tel em:last-child div.telphone ul li:last-child {
+  border-bottom: none;
+}
+
+div.header div.nav div.right a.tel em:last-child div.telphone::before {
+  content: "";
+  position: absolute;
+  border: 12px solid;
+  border-color: transparent transparent #efefed transparent;
+  top: -24px;
+  left: 15%;
+  height: 0px;
+  width: 0px;
+}
+
+div.header div.nav div.right a.tel em:last-child:hover div.telphone {
+  display: block;
+}
+
+div.header div.color1 {
+  background: #2064C8;
+  height: 40px;
+}
+
+div.header div.color1 div.navigation {
+  clear: both;
+  width: 1200px;
+  margin: 20px auto;
+  height: 40px;
+}
+
+div.header div.navigation ul.nav {}
+
+div.header div.navigation ul.nav li {
+  height: 40px;
+  font-size: 14px;
+  float: left;
+  border-right: 1px solid #3774ce;
+  line-height: 40px;
+}
+
+div.header div.navigation ul.nav li a {
+  position: relative;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 12px;
+  color: #fff;
+  font-size: 14px;
+}
+
+div.header div.navigation ul.nav li a:hover {
+  background: #0000D9;
+}
+
+div.header div.navigation ul.nav li a span.s1 {
+  display: inline-block;
+  width: 21px;
+  background: url(../images/fh1.png) -511px 0;
+  z-index: 110;
+  height: 20px;
+  position: absolute;
+  top: -9px;
+}
+
+div.header div.navigation ul.nav li a span.s2 {
+  display: inline-block;
+  width: 40px;
+  background: url(../images/fh1.png) -471px -30px;
+  z-index: 110;
+  height: 20px;
+  position: absolute;
+  top: -9px;
+}
+
+div.header div.navigation ul.nav li a span.s3 {
+  display: inline-block;
+  width: 17px;
+  background: url(../images/fh1.png) -491px 0;
+  z-index: 110;
+  height: 20px;
+  position: absolute;
+  top: -9px;
+}
+
+div.header div.navigation div.login {
+  position: relative;
+  float: right;
+  width: 100px;
+  padding: 10px;
+  color: #fff;
+  background: #003679;
+  height: 20px;
+}
+
+div.header div.navigation div.login input {
+  margin-right: 0px;
+  color: #fff;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  font-family: '微软雅黑';
+}
+
+div.header div.navigation div.login input:first-child {
+  margin-left: 8px;
+}
+
+div.header div.navigation div.login div.check {
+  z-index: 1000;
+  display: none;
+  width: 210px;
+  position: absolute;
+  left: -110px;
+  top: 40px;
+  height: 230px;
+  box-shadow: 0 0 5px #ccc;
+  background: #fff;
+  padding: 10px;
+  padding-top: 15px;
+}
+
+div.header div.navigation div.login div.check p {
+  width: 180px;
+  border-radius: 10px;
+  background: #FF8800;
+  height: 35px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  margin: 0 auto;
+}
+
+div.header div.navigation div.login div.check p:hover {
+  background: #EE6600;
+}
+
+div.header div.navigation div.login div.check ul.ul1 {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li {
+  width: 63px;
+  float: left;
+  height: 50px;
+  vertical-align: bottom;
+  margin-top: 10px;
+  border: none;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li1 {
+  background: url(../images/fh1.png) -157px -685px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li2 {
+  background: url(../images/fh1.png) -225px -574px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li3 {
+  background: url(../images/fh1.png) -222px -685px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li4 {
+  background: url(../images/fh1.png) -151px -628px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li5 {
+  background: url(../images/fh1.png) -222px -629px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li6 {
+  background: url(../images/fh1.png) -280px -627px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li7 {
+  background: url(../images/fh1.png) -156px -574px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li8 {
+  background: url(../images/fh1.png) -288px -574px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li9 {
+  background: url(../images/fh1.png) -280px -682px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li1:hover {
+  background: url(../images/fh1.png) 9px -685px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li2:hover {
+  background: url(../images/fh1.png) -44px -574px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li3:hover {
+  background: url(../images/fh1.png) -44px -685px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li4:hover {
+  background: url(../images/fh1.png) 9px -628px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li5:hover {
+  background: url(../images/fh1.png) -45px -629px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li6:hover {
+  background: url(../images/fh1.png) -97px -627px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li7:hover {
+  background: url(../images/fh1.png) 9px -574px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li8:hover {
+  background: url(../images/fh1.png) -96px -574px;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li.li9:hover {
+  background: url(../images/fh1.png) -96px -682px;
+}
+
+div.header div.navigation div.login:hover div.check {
+  display: block;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li a {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-top: 35px;
+  display: inline-block;
+}
+
+div.header div.navigation div.login div.check ul.ul1 li:hover a {
+  color: #5487CB;
+}
+
+.here {
+  background: #003679 !important;
+}
+
+
+/*banner*/
+
+.banner {
+  width: 100%;
+  /* height:380px;*/
+  position: relative;
+}
+
+ul.showpic {
+  /* background:#0f0; */
+}
+
+ul.showpic li img {
+  display: block;
+  width: 100%;
+  /*width:1349px; height:380px;*/
+}
+
+ol.dots {
+  position: absolute;
+  right: 50%;
+  bottom: 1%;
+  margin-right: -600px;
+  width: 250px;
+  height: 30px;
+  overflow: hidden;
+}
+
+ol.dots li {
+  z-index: 1000;
+  float: left;
+  width: 24px;
+  height: 4px;
+  margin-right: 6px;
+  border: none;
+  background: url(../images/icon_index.png) -509px -373px;
+  cursor: pointer;
+}
+
+ol.dots li.active {
+  background: url(../images/icon_index.png) -509px -392px;
+}
+
+.search {
+  width: 960px;
+  height: 180px;
+  position: absolute;
+  left: 173px;
+  top: 140px;
+  z-index: 2;
+}
+
+.searchtitle {
+  height: 40px;
+}
+
+.searchtitle ul {
+  overflow: hidden;
+}
+
+.searchtitle ul li {
+  float: left;
+  width: 140px;
+  height: 39px;
+  margin-right: 1px;
+  border: none;
+  background: rgba(0, 0, 0, .7);
+  line-height: 39px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.searchhotel,
+.searchshort,
+.searchhongk {
+  height: 140px;
+  background: rgba(0, 0, 0, .7);
+  color: #fff;
+  overflow: hidden;
+}
+
+.searchshort {
+  display: none;
+}
+
+.searchhongk {
+  display: none;
+}
+
+.searchcon {
+  height: 40px;
+  margin: 20px 0 0 20px;
+  overflow: hidden;
+}
+
+.searchcon input {
+  border: none;
+  outline: none;
+}
+
+.shcity,
+.shdate,
+.shbtn,
+.shmap,
+.shkeywd {
+  float: left;
+  margin-right: 10px;
+  height: 40px;
+  /*line-height:40px;*/
+}
+
+.shcity input {
+  width: 185px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #555;
+}
+
+.shdate {
+  width: 170px;
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+}
+
+.shdate span {
+  color: #999;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.shdate input {
+  width: 87px;
+  height: 26px;
+  font-size: 16px;
+  color: #555;
+  margin-left: 5px;
+}
+
+.shdate span.cal {
+  float: right;
+  width: 20px;
+  height: 20px;
+  background: url(../images/icon_2015.png) -475px 0 no-repeat;
+  margin: 10px 0px 0 10px;
+}
+
+.shkeywd input {
+  width: 165px;
+  height: 40px;
+  color: #999;
+  font-size: 18px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+.shbtn {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  border-radius: 3px;
+  background: #f55;
+  cursor: pointer;
+}
+
+.shbtn span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 20px;
+  padding-right: 4px;
+  background: url(../images/icon_2015.png) -428px -3px no-repeat;
+  vertical-align: middle;
+}
+
+.shmap {
+  width: 58px;
+  height: 38px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, .4);
+  border-radius: 3px;
+}
+
+.shmap span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/icon_2015.png) -449px -2px no-repeat;
+  vertical-align: -3px;
+  padding-right: 3px;
+}
+
+.searchshort .shcity input {
+  width: 260px;
+}
+
+.searchshort .shdate {
+  width: 230px;
+}
+
+.searchshort .shbtn {
+  width: 150px;
+}
+
+.searchshort .shbtn span {
+  margin-left: 40px;
+}
+
+.searchhongk .shbtn {
+  width: 150px;
+}
+
+.searchhongk .shbtn span {
+  margin-left: 40px;
+}
+
+.searchhot {
+  margin: 20px 0 0 25px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.searchhot dt {
+  float: left;
+}
+
+.searchhot dd {
+  float: left;
+  margin-right: 24px;
+}
+
+.searchhot dd a {
+  font-size: 14px;
+  color: #fff;
+}
+
+.searchhot dd a:hover {
+  color: #f80;
+}
+
+
+/*选项卡*/
+
+div.chinaaddress {
+  width: 432px;
+  z-index: 1000;
+  font-size: 12px;
+  border: 1px solid #c5c5c5;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  color: #555;
+  position: absolute;
+  left: 2%;
+  top: 58%;
+  background: #fff;
+}
+
+div.chinaaddress ul li {
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  float: left;
+  cursor: pointer;
+  display: block;
+  font-size: 12px;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.chinaaddress ul.chinacitys {
+  border-bottom: 1px solid #D7D7D7;
+  background: #F8F8F8;
+}
+
+div.chinaaddress ul.chinacitys li {
+  width: auto;
+  padding: 0px 8px;
+  margin: 0px 7px;
+  color: inherit;
+  margin-bottom: -10px;
+}
+
+div.chinaaddress p:first-child {
+  color: #999;
+}
+
+div.chinaaddress p {
+  margin: 1px 1px 3px;
+  border-width: 0px;
+  padding: 5px 0px 2px 10px;
+  text-align: left;
+  background: transparent none repeat scroll 0% 0%;
+  position: relative;
+}
+
+div.chinaaddress div.chinacity {}
+
+div.chinaaddress ul {
+  overflow: hidden;
+  padding: 5px 0px 10px;
+}
+
+div.chinaaddress div.chinacity div.hotcity ul li {
+  width: 53px;
+  height: 18px;
+  text-align: left;
+  overflow: hidden;
+  line-height: 18px;
+  margin: 2px 9px 0px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+div.chinaaddress div.chinacity div.hotcity section.picshow {
+  color: #A57829;
+  height: 40px;
+  padding: 10px;
+  border-top: 1px solid #F4E9C3;
+  background-color: #FFFDEA;
+  margin-top: -1px;
+}
+
+div.chinaaddress div.chinacity div.hotcity section.picshow p {
+  float: right;
+  margin-right: 100px;
+  margin-top: 12px;
+}
+
+div.chinaaddress div.chinacity div.hotcity section.picshow p span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+div.chinaaddress div.chinacity div ul {
+  overflow: hidden;
+  padding: 5px 0px 10px;
+}
+
+div.chinaaddress div.chinacity div ul li {
+  width: 53px;
+  height: 20px;
+  text-align: left;
+  overflow: hidden;
+  line-height: 18px;
+  margin: 2px 9px 1px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+div.chinaaddress div.chinacity div ul li.letter {
+  float: left;
+  height: 18px;
+  text-align: left;
+  width: 17px;
+  font: 18px Arial;
+  color: #999;
+  margin: 2px -9px 0px 6px;
+  clear: both;
+  display: inline;
+  cursor: default;
+  padding: 0px;
+}
+
+div.chinaaddress div.chinacity div ul li.line {
+  height: 0px;
+  width: 98%;
+  border-bottom: 1px dashed #CBCBCB;
+  margin: 5px 1%;
+  overflow: hidden;
+  cursor: default;
+}
+
+.clickstyle {
+  background: #fff;
+  border: 1px solid #d7d7d7;
+  border-bottom: 2px solid #fff;
+}
+
+div.chinaaddress ul.chinacitys li:hover {
+  color: #f60;
+  font-weight: bold;
+}
+
+div.chinaaddress div.chinacity div ul li:hover {
+  color: #49f;
+}
+
+
+/*fold_warp*/
+
+.fold_wrap {
+  width: 1200px;
+  height: 260px;
+  margin: 30px auto;
+}
+
+.fold_wrap ul {
+  width: 1200px;
+  height: 260px;
+  overflow: hidden;
+}
+
+.fold_wrap ul li {
+  float: left;
+  width: 200px;
+  height: 260px;
+  position: relative;
+  border: 0;
+}
+
+.fold_wrap ul li a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.fold_wrap ul .mask_b {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .3);
+}
+
+.fold_wrap ul .mask_b h4 {
+  color: #fff;
+  width: 30px;
+  font-size: 30px;
+  margin: 30px auto;
+}
+
+.fold_wrap ul .pic_auto {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.fold_wrap ul .adv_intro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.fold_wrap ul .pic_auto1 {
+  background: url(../images/chfold1.jpg) center 0 no-repeat;
+}
+
+.fold_wrap ul .pic_auto2 {
+  background: url(../images/chfold2.jpg) center 0 no-repeat;
+}
+
+.fold_wrap ul .pic_auto3 {
+  background: url(../images/chfold3.jpg) center 0 no-repeat;
+}
+
+.fold_wrap ul .pic_auto4 {
+  background: url(../images/chfold4.jpg) center 0 no-repeat;
+}
+
+.fold_wrap ul .pic_auto5 {
+  background: url(../images/chfold5.jpg) center 0 no-repeat;
+}
+
+.fold_wrap ul .pic_auto6 {
+  background: url(../images/chfold6.jpg) center 0 no-repeat;
+}
+
+
+/*目的地推荐*/
+
+section.dir {
+  width: 1200px;
+  margin: 10px auto 0;
+  /* background:#000;*/
+}
+
+section .hd {
+  height: 30px;
+  line-height: 30px;
+}
+
+section .hd h2 {
+  float: left;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+section .hd a {
+  float: right;
+  color: #555;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+section.dir .hd {
+  overflow: hidden;
+  border-bottom: 2px solid #8c2;
+}
+
+section.dir .hd h2 {
+  color: #8c2;
+}
+
+section.dir .hd a:hover {
+  color: #f55;
+}
+
+section.dir ul.dirul {
+  width: 1200px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+section.dir ul.dirul li {
+  float: left;
+  width: 399px;
+  height: 108px;
+}
+
+section.dir ul.dirul li:first-child {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+section.dir ul.dirul li:nth-child(2) {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+section.dir ul.dirul li:nth-child(3) {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+section.dir ul.dirul li:first-child,
+li:nth-child(2),
+li:nth-child(4),
+li:nth-child(5) {
+  border-right: 1px solid #f1f1f1;
+}
+
+section.dir ul.dirul li .transpic {
+  float: left;
+  width: 82px;
+  height: 82px;
+  margin: 10px 0 0 15px;
+}
+
+section.dir ul.dirul li span {
+  float: left;
+  width: 82px;
+  height: 0;
+  transition: height 0.5s ease 0s;
+}
+
+section.dir ul.dirul li:first-child .transpic {
+  background: url(../images/chinahotel_index.png) -508px 0 no-repeat;
+}
+
+section.dir ul.dirul li:nth-child(2) .transpic {
+  background: url(../images/chinahotel_index.png) -83px 0 no-repeat;
+}
+
+section.dir ul.dirul li:nth-child(3) .transpic {
+  background: url(../images/chinahotel_index.png) -170px 0 no-repeat;
+}
+
+section.dir ul.dirul li:nth-child(4) .transpic {
+  background: url(../images/chinahotel_index.png) -253px 0 no-repeat;
+}
+
+section.dir ul.dirul li:nth-child(5) .transpic {
+  background: url(../images/chinahotel_index.png) -339px 0 no-repeat;
+}
+
+section.dir ul.dirul li:nth-child(6) .transpic {
+  background: url(../images/chinahotel_index.png) -594px 0 no-repeat;
+}
+
+section.dir ul.dirul li:hover span {
+  height: 82px;
+}
+
+section.dir ul.dirul li:first-child:hover span {
+  background: url(../images/chinahotel_index.png) -508px -100px no-repeat;
+}
+
+section.dir ul.dirul li:nth-child(2):hover span {
+  background: url(../images/chinahotel_index.png) -83px -100px no-repeat;
+}
+
+section.dir ul.dirul li:nth-child(3):hover span {
+  background: url(../images/chinahotel_index.png) -170px -100px no-repeat;
+}
+
+section.dir ul.dirul li:nth-child(4):hover span {
+  background: url(../images/chinahotel_index.png) -253px -100px no-repeat;
+}
+
+section.dir ul.dirul li:nth-child(5):hover span {
+  background: url(../images/chinahotel_index.png) -339px -100px no-repeat;
+}
+
+section.dir ul.dirul li:nth-child(6):hover span {
+  background: url(../images/chinahotel_index.png) -594px -100px no-repeat;
+}
+
+section.dir ul.dirul li dl {
+  margin: 10px 10px 0 115px;
+  height: 80px;
+}
+
+section.dir ul.dirul li dt {
+  font-size: 18px;
+  color: #8c2;
+  margin: 0 5px 4px 0;
+}
+
+section.dir ul.dirul li dd {
+  float: left;
+  padding: 0 5px;
+  margin: 0 5px 4px 0;
+  line-height: 22px;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+
+section.dir ul.dirul li dd:hover {
+  background: #8c2;
+}
+
+
+/*促销特卖会*/
+
+section.sale {
+  width: 1200px;
+  margin: 20px auto 0;
+}
+
+section.sale h2 {
+  color: #b73;
+}
+
+section.sale .hd {
+  border-bottom: 2px solid #b73;
+}
+
+section.sale ul.sl {
+  width: 1200px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+section.sale ul.sl li {
+  float: left;
+  width: 291px;
+  height: 200px;
+  margin-left: 12px;
+}
+
+section.sale ul.sl li:hover img {
+  margin-top: -10px;
+}
+
+section.sale ul.sl li:hover .sltime {
+  border-bottom: 2px solid #b73;
+  border-right: 0;
+}
+
+section.sale ul.sl li:first-child {
+  margin-left: 0px;
+}
+
+section.sale ul.sl li:last-child {
+  float: right;
+  margin-left: 0;
+}
+
+section.sale ul.sl li a {
+  display: block;
+  width: 291px;
+  color: #000;
+  position: relative;
+}
+
+section.sale ul.sl li a .pdou {
+  height: 160px;
+  overflow: hidden;
+}
+
+section.sale ul.sl li a .pdou img {
+  width: 290px;
+  transition: margin 0.4s ease;
+}
+
+section.sale ul.sl li a .jdui {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  width: 200px;
+  height: 80px;
+  color: #fff;
+  font-size: 24px;
+  margin: 0 0 0 10px;
+  z-index: 3;
+}
+
+section.sale ul.sl li a .jdui span {
+  display: block;
+  font-size: 16px;
+  border-top: 1px solid #fff;
+  margin: 6px 0 0 0;
+  height: 30px;
+  line-height: 30px;
+}
+
+section.sale ul.sl li .sltime {
+  z-index: 5;
+  height: 38px;
+  background: #f7f7f7;
+  color: #555;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+
+section.sale ul.sl li .sltime p {
+  padding: 15px 0 0 15px;
+}
+
+section.sale ul.sl li:nth-child(3) .discount {
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+  width: 80px;
+  height: 58px;
+  background: url(../images/chinahotel_index.png) -172px -186px;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 52px;
+  text-align: center;
+}
+
+section.sale ul.sl li:nth-child(3) .discount span {
+  font-size: 36px;
+}
+
+
+/*推荐品牌*/
+
+section.remcond {
+  width: 1200px;
+  margin: 30px auto 0;
+  height: 400px;
+}
+
+section.remcond .hd {
+  border-bottom: 2px solid #49f;
+}
+
+section.remcond .hd h2 {
+  color: #49f;
+}
+
+section.remcond .company {
+  /*background:#00f; */
+  width: 1200px;
+  overflow: hidden;
+  position: relative;
+}
+
+section.remcond .company ul {
+  border: none;
+  width: 1800px;
+  margin-left: 10px;
+  position: relative;
+}
+
+section.remcond .company ul li {
+  float: left;
+  width: 149px;
+  height: 280px;
+  border-right: 1px solid #F1F1F1;
+  /* background:#0f0;*/
+}
+
+section.remcond .company ul li {
+  width: 148px;
+  margin-top: 20px;
+  border-bottom: none;
+}
+
+section.remcond .company ul li a {
+  display: block;
+  width: 148px;
+  height: 110px;
+}
+
+section.remcond .company ul li a span {
+  display: block;
+  width: 110px;
+  height: 90px;
+  margin: 30px 0 0 20px;
+}
+
+section.remcond .company ul li .a1 {
+  border-bottom: 1px solid #F1F1F1;
+}
+
+section.remcond .company ul li p {
+  color: #555;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 30px;
+}
+
+section.remcond .company ul li:first-child .a1 span {
+  background: url(../images/chinahtpic.png) -446px 0;
+}
+
+section.remcond .company ul li:first-child .a2 span {
+  background: url(../images/chinahtpic.png) -449px -85px;
+}
+
+section.remcond .company ul li:nth-child(2) .a1 span {
+  background: url(../images/chinahtpic.png) -676px 0;
+}
+
+section.remcond .company ul li:nth-child(2) .a2 span {
+  background: url(../images/chinahtpic.png) -674px -175px;
+}
+
+section.remcond .company ul li:nth-child(3) .a1 span {
+  background: url(../images/chinahtpic.png) -778px -74px;
+}
+
+section.remcond .company ul li:nth-child(3) .a2 span {
+  background: url(../images/chinahtpic.png) -223px -187px;
+}
+
+section.remcond .company ul li:nth-child(4) .a1 span {
+  background: url(../images/chinahtpic.png) 0 -172px;
+}
+
+section.remcond .company ul li:nth-child(4) .a2 span {
+  background: url(../images/chinahtpic.png) -441px -172px;
+}
+
+section.remcond .company ul li:nth-child(5) .a1 span {
+  background: url(../images/chinahtpic.png) -221px 5px;
+}
+
+section.remcond .company ul li:nth-child(5) .a2 span {
+  background: url(../images/chinahtpic.png) -560px -88px;
+}
+
+section.remcond .company ul li:nth-child(6) .a1 span {
+  background: url(../images/chinahtpic.png) 0 -84px;
+}
+
+section.remcond .company ul li:nth-child(6) .a2 span {
+  background: url(../images/chinahtpic.png) -785px -175px;
+}
+
+section.remcond .company ul li:nth-child(7) .a1 span {
+  background: url(../images/chinahtpic.png) -107px -172px;
+}
+
+section.remcond .company ul li:nth-child(7) .a2 span {
+  background: url(../images/chinahtpic.png) 0 5px;
+}
+
+section.remcond .company ul li:nth-child(8) .a1 span {
+  background: url(../images/chinahtpic.png) -334px 5px;
+}
+
+section.remcond .company ul li:nth-child(8) .a2 span {
+  background: url(../images/chinahtpic.png) -680px -86px;
+}
+
+section.remcond .company ul li:nth-child(9) .a1 span {
+  background: url(../images/chinahtpic.png) -224px -80px;
+}
+
+section.remcond .company ul li:nth-child(9) .a2 span {
+  background: url(../images/chinahtpic.png) -339px -80px;
+}
+
+section.remcond .company ul li:nth-child(10) .a1 span {
+  background: url(../images/chinahtpic.png) -340px -175px;
+}
+
+section.remcond .company ul li:nth-child(10) .a2 span {
+  background: url(../images/chinahtpic.png) -559px 0;
+}
+
+section.remcond .company ul li:nth-child(11) .a1 span {
+  background: url(../images/chinahtpic.png) -109px 0;
+}
+
+section.remcond .company ul li:nth-child(11) .a2 span {
+  background: url(../images/chinahtpic.png) -557px -170px;
+}
+
+section.remcond .company ul li:nth-child(12) .a1 span {
+  background: url(../images/chinahtpic.png) -105px -88px;
+}
+
+section.remcond .company ul li:nth-child(12) .a2 span {
+  background: url(../images/chinahtpic.png) -780px 0;
+}
+
+section.remcond .tjlf,
+.tjrg {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background: url(../images/chinahotel_index.png);
+}
+
+section.remcond .tjlf {
+  left: 0;
+  bottom: 116px;
+  background-position: -104px -292px;
+  display: none;
+}
+
+section.remcond .tjrg {
+  right: 0;
+  bottom: 116px;
+  background-position: -154px -292px;
+  display: none;
+}
+
+section.remcond .tjlf:hover {
+  cursor: pointer;
+}
+
+section.remcond .tjrg:hover {
+  cursor: pointer;
+}
+
+
+/*邮箱信息*/
+
+
+/*动画样式定义*/
+
+@-webkit-keyframes change {
+  0% {
+    transform: rotate(0deg)
+  }
+  10% {
+    transform: rotate(15deg)
+  }
+  20% {
+    transform: rotate(-15deg)
+  }
+  30% {
+    transform: rotate(10deg)
+  }
+  40% {
+    transform: rotate(-10deg)
+  }
+  50% {
+    transform: rotate(5deg)
+  }
+  60% {
+    transform: rotate(-5deg)
+  }
+  70% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(0deg)
+  }
+}
+
+@-moz-keyframes change {
+  0% {
+    transform: rotate(0deg)
+  }
+  10% {
+    transform: rotate(15deg)
+  }
+  20% {
+    transform: rotate(-15deg)
+  }
+  30% {
+    transform: rotate(10deg)
+  }
+  40% {
+    transform: rotate(-10deg)
+  }
+  50% {
+    transform: rotate(5deg)
+  }
+  60% {
+    transform: rotate(-5deg)
+  }
+  70% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(0deg)
+  }
+}
+
+.message {
+  width: 1200px;
+  height: 180px;
+  background: #F7F7F7;
+  margin: 0 auto;
+}
+
+.message .mshotel {
+  margin: 0 0 0 30px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.message .mshotel ul {
+  overflow: hidden;
+  height: 100px;
+  line-height: 70px;
+}
+
+.message .mshotel ul li {
+  float: left;
+  margin: 30px 80px 0 0;
+}
+
+.message .mshotel ul li span {
+  float: left;
+  height: 70px;
+  color: #555;
+  font-size: 16px;
+}
+
+.message .mshotel ul li .msp1 {
+  width: 68px;
+  background: url(../images/icon_index.png) -85px -4px;
+}
+
+.message .mshotel ul li .msp1:hover {
+  -webkit-animation: change 2s infinite;
+  -moz-animation: change 2s infinite;
+}
+
+.message .mshotel ul li .msp3 {
+  background: url(../images/icon_index.png) -156px -4px;
+}
+
+.message .mshotel ul li .msp4 {
+  background: url(../images/icon_index.png) -222px -4px;
+}
+
+.message .mshotel ul li .msp5 {
+  background: url(../images/icon_index.png) -290px -6px;
+}
+
+.message .ipemail {
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+}
+
+.message .ipemail .emleft {
+  float: left;
+  background: url(../images/chinahotel_index.png) -615px -208px;
+  width: 80px;
+  height: 80px;
+}
+
+.message .ipemail .emright {
+  float: right;
+}
+
+.message .ipemail .emright a {
+  color: #37D;
+  font-size: 14px;
+}
+
+.message .ipemail .emright a:hover {
+  text-decoration: underline;
+}
+
+.message .ipemail .emaillogin {
+  float: left;
+  margin: 10px 0 0 200px;
+}
+
+.message .ipemail .emaillogin span {
+  color: #71829D;
+  font-size: 16px;
+}
+
+.message .ipemail .emaillogin {
+  border: none;
+}
+
+.message .ipemail .emaillogin .eminp1 {
+  width: 200px;
+  height: 28px;
+  outline: none;
+}
+
+.message .ipemail .emaillogin .eminp2 {
+  background: #37D;
+  width: 80px;
+  height: 34px;
+  border: none;
+  color: #fff;
+}
